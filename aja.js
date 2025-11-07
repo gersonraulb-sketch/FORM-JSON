@@ -46,7 +46,7 @@ function validarYDescargar(event) {
     }
 
     if (document.getElementById('nacimiento').value === '') {
-        document.getElementById('error-fecha').textContent = 'La fecha de nacimiento es obligatoria.';
+        document.getElementById('error-nacimiento').textContent = 'La fecha de nacimiento es obligatoria.';
         valido = false;
     }
 
@@ -98,3 +98,4 @@ function validarYDescargar(event) {
 }
 
 enviar.addEventListener('click', validarYDescargar);
+
