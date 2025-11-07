@@ -61,7 +61,7 @@ function validarYDescargar(event) {
     }
 
     if (document.getElementById('descripcion').value === '') {
-        document.getElementById('error-desc').textContent = 'Debe agregar una descripción.';
+        document.getElementById('error-descripcion').textContent = 'Debe agregar una descripción.';
         valido = false;
     }
 
@@ -98,4 +98,5 @@ function validarYDescargar(event) {
 }
 
 enviar.addEventListener('click', validarYDescargar);
+
 
