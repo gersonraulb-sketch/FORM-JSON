@@ -101,7 +101,20 @@ label {
     text-align: left; 
 }
 
+.progreso {
+    margin-top: 15px;
+    height: 15px;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
 
+.barra {
+    height: 100%;
+    width: 0%;
+    background-color: #ae1b16;
+    transition: width 0.3s;
+}
 
 footer {
     background-color: #ae1b16;
@@ -112,3 +125,4 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
